@@ -2,7 +2,7 @@
 #include <string.h>
 
 #define gets(x) fgets(x, sizeof(x), stdin )		/*Ceci devait etre l'exercice 11.1.c*/
-#define NB 4  						     /*Desole de l'inconvenance*/    
+#define NB 100 						     /*Desole de l'inconvenance*/    
 
 struct point {
 	int num;

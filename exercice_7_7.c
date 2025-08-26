@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(){
-
+int main()
+{
 	int x[2] [3] ;
 	int i , j ;
 	for ( i = 0 ; i < 2 ; i++ ) 
@@ -10,7 +10,6 @@ int main(){
 		{	scanf (" %d", &x [i] [j] ) ;
 		}
 	}
-	j = 0;
 		for ( i = 0 ; i < 3 ; i++ )
 	       
 	{	printf ("Colonne %d : ", i ) ;
@@ -18,7 +17,7 @@ int main(){
 		{	printf (" %d  \n", x[j] [i]  ) ;
 		}
 	}
-			return 7 ;
+	return 7 ;
 }
 
 

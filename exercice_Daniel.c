@@ -3,8 +3,8 @@
 int main(){
 
 	int i;
-	for (i=0;i<=5;i++){
-		if ( i==5 ){
+	for (i=0;i<=20;i++){
+		if ( i==   20 ){
 		       printf ("mega-lol \n");
 		}
 		else printf ("lol \n");

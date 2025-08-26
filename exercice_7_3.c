@@ -18,7 +18,7 @@ int main(){
 			max = t[i] ;
 		}
 	}
-	printf ("La position de la plus grande valeur est  %d \n", position + 1 ) ;
+	printf ("La position de la plus grande valeur est  %d \n", position + 1  ) ;
 	return 7 ;
 }
 			

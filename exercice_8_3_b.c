@@ -16,7 +16,8 @@ void triangle(int nl) {
 	int i;
 	int e;
 
-       	for ( i = 1 ; i <= nl ; i++ ){
+       	for ( i = 1 ; i < nl + 1; i++ ){
+
 		for ( e = 1 ; e <= i ; e++ ){
 			printf ("*") ;
 		}

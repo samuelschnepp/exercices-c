@@ -1,4 +1,4 @@
-CFLAGS=-Og -g3
+CFLAGS=-O0 -g3
 CFLAGS+=-Wall -Werror -pedantic
 
 C=$(wildcard *.c)
