@@ -1,11 +1,13 @@
-CFLAGS=-O0 -g3
+CFLAGS=-Og -g3
 CFLAGS+=-Wall -Werror -pedantic
 
-C=$(wildcard *.c)
-ETAPE=$(C:.c=)
+SRCS=$(wildcard *.c)
+OBJS=$(SRCS:.c=.o)
+BINS=$(OBJS:.o=)
 
 
-all: $(ETAPE)
+all: $(BINS)
 
 clean:
-	rm -f $(ETAPE)
+	rm -f $(OBJS)
+	rm -f $(BINS)
