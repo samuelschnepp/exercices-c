@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
 
 	float valeur ;
@@ -14,10 +15,5 @@ int main(){
 
 
 
-		return 5  
-
-
-				;
-
-
+	return 0;
 }	
